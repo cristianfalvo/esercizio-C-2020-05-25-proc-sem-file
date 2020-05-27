@@ -270,7 +270,7 @@ void create_file_set_size(char *file_name, unsigned int file_size) {
 
 	close(fd);
 }
-
+		if (s == -1) break;
 
 void child_process_solution_A(int i) {
 	int fd;
